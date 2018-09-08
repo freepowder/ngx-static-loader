@@ -1,0 +1,49 @@
+{
+  "APP": {
+    "GLOBAL": {
+      "LOGO": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==",
+      "TITLE": "ngx static loader",
+      "SUBTITLE": "load static content into your angular apps!",
+      "NAME": "ngx-static-loader"
+    },
+
+    "EXAMPLE" : {
+      "LOGO" : {
+        "LOGO": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==",
+        "ALT": "angular logo brand"
+      },
+      "BODY" : {
+        "TITLE": "static async loader",
+        "CTA":{
+          "LABEL": "load static content",
+          "LINK": "https://angular.io/tutorial"
+        },
+        "CONTENT": "&lt;span&gt; load static content with html &lt;/span&gt;"
+      }
+    }
+    ,"HOME": {
+      "BODY" : {
+        "SECTION1" : {
+          "TITLE": "Load static content into your templates from a .json file using ngx-static-loader.",
+          "CONTENT": "Supports text, links, markup, and urls. <br/>All your static content in one place, perfect for quick prototyping, demos, small & medium apps, mvps, etc...<br/>This library requires you to use the assets folder as entry point, and it supports any level of nested objects in your .json file."
+        },
+        "INSTALL" : {
+          "TITLE": "Install",
+          "CONTENT": "npm i ngx-static-loader --save"
+        },
+        "CONFIG" : {
+          "TITLE": "Configure",
+          "STEP1": "1. Create static .json file with your content",
+          "STEP2": "2. Import <span class=\"text-warning\">NgxStaticLoaderModule</span> into your app.module"
+        },
+        "USAGE" : {
+          "TITLE": "Usage",
+          "CASE1": "With text",
+          "CASE2": "With image",
+          "CASE3": "With markup",
+          "CASE4": "With link"
+        }
+      }
+    }
+  }
+}

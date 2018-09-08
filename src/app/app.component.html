@@ -1,0 +1,59 @@
+<arf-navbar></arf-navbar>
+<main role="main" class="container">
+  <arf-panel>
+    <h1 class="text-warning">{{'APP.GLOBAL.TITLE' | staticLoader | async}}</h1>
+    <h3 class="text-primary">{{'APP.GLOBAL.SUBTITLE' | staticLoader | async}}</h3>
+  </arf-panel>
+  <arf-panel>
+    <h5 class="media text-muted pt-3">
+      {{ 'APP.HOME.BODY.SECTION1.TITLE' | staticLoader | async }}
+    </h5>
+    <h6 class="media text-muted pt-3" [innerHTML]="'APP.HOME.BODY.SECTION1.CONTENT' | staticLoader | async"></h6>
+  </arf-panel>
+  <arf-panel [title]="'APP.HOME.BODY.INSTALL.TITLE' | staticLoader | async">
+    <div class="p-3">
+      <arf-code-install></arf-code-install>
+    </div>
+  </arf-panel>
+  <arf-panel [title]="'APP.HOME.BODY.CONFIG.TITLE' | staticLoader | async">
+    <div class="p-3">
+      <h4 class="text-muted pb-1 pt-4 pt-3" [innerHTML]="'APP.HOME.BODY.CONFIG.STEP1' | staticLoader | async"></h4>
+      <arf-code-json></arf-code-json>
+      <h4 class="text-muted pb-1 pt-4 pt-3" [innerHTML]="'APP.HOME.BODY.CONFIG.STEP2' | staticLoader | async"></h4>
+      <arf-code-add></arf-code-add>
+    </div>
+  </arf-panel>
+  <arf-panel [title]="'APP.HOME.BODY.USAGE.TITLE' | staticLoader | async">
+    <div class="p-3">
+      <div class="p-3">
+        <h4 class="text-muted pt-3" [innerHTML]="'APP.HOME.BODY.USAGE.CASE1' | staticLoader | async"></h4>
+        <arf-code-usage [code]="static">
+          <arf-code-usage-text></arf-code-usage-text>
+        </arf-code-usage>
+
+        <h4 class="text-muted pt-3" [innerHTML]="'APP.HOME.BODY.USAGE.CASE2' | staticLoader | async"></h4>
+        <arf-code-usage [code]="staticSafe">
+          <arf-code-usage-image></arf-code-usage-image>
+        </arf-code-usage>
+
+        <h4 class="text-muted pt-3" [innerHTML]="'APP.HOME.BODY.USAGE.CASE3' | staticLoader | async"></h4>
+        <arf-code-usage [code]="withMarkup">
+          <arf-code-usage-markup></arf-code-usage-markup>
+        </arf-code-usage>
+        <h4 class="text-muted pt-3" [innerHTML]="'APP.HOME.BODY.USAGE.CASE4' | staticLoader | async"></h4>
+        <arf-code-usage [code]="staticSafe2">
+          <arf-code-usage-link></arf-code-usage-link>
+        </arf-code-usage>
+      </div>
+    </div>
+  </arf-panel>
+</main>
+<div class="container-fluid mt-5 p-5 bg-secondary">
+  <div class="row text-center">
+    <div class="col">
+      <h1 class="text-light">{{'APP.GLOBAL.TITLE' | staticLoader | async}}</h1>
+      <h3 class="text-dark">{{'APP.GLOBAL.SUBTITLE' | staticLoader | async}}</h3>
+    </div>
+  </div>
+</div>
+
